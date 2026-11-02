@@ -36,3 +36,5 @@ Pages are plain HTML. Shared navigation, footer, metadata, and contact details m
 See [revision notes](docs/REVISION-NOTES.md) for scope, verification, and launch considerations.
 
 Homepage links use `/` for the canonical homepage URL. The consultation form uses StaticForms’ `redirectTo` field to send successful submissions to `https://bergenpsychologyservices.com/thank-you/`. The confirmation page is excluded from the sitemap and has a `noindex` directive.
+
+The shared footer includes Psychology Today’s official verified seal for profile `1844879`, using badge `11`. Keep the seal link immediately before the provider script: the script relies on this placement. The link has an accessible label and visible fallback text when the seal is unavailable. The privacy notice identifies this external service.

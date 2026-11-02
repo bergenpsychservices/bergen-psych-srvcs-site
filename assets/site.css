@@ -771,6 +771,20 @@ summary {
   display: inline-block;
   margin-bottom: 18px;
 }
+.psychology-today-seal {
+  margin-top: 20px;
+}
+.psychology-today-seal .sx-verified-seal {
+  display: flex;
+  align-items: center;
+  width: 186px;
+  min-height: 60px;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+.sx-verified-seal[style*="background-image"] .seal-fallback {
+  display: none;
+}
 .site-footer p,
 .site-footer li {
   font-size: 0.95rem;
