@@ -16,3 +16,18 @@ if (menu) {
     });
   });
 }
+
+// Require a phone number only when the visitor requests a phone response.
+const contactMethod = document.querySelector("#contact-method");
+const phone = document.querySelector("#phone");
+const phoneRequirement = document.querySelector("#phone-requirement");
+if (contactMethod && phone && phoneRequirement) {
+  const updatePhoneRequirement = () => {
+    const phonePreferred = contactMethod.value === "Phone";
+    phone.required = phonePreferred;
+    phoneRequirement.textContent = phonePreferred ? "(required)" : "(optional)";
+  };
+  contactMethod.addEventListener("change", updatePhoneRequirement);
+  window.addEventListener("pageshow", updatePhoneRequirement);
+  updatePhoneRequirement();
+}

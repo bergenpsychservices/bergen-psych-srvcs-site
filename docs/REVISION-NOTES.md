@@ -2,11 +2,11 @@
 
 ## Result
 
-Visitors can now identify the practice's adult therapy focus, understand what working with Dr. Sheinfil involves, find fees and appointment information, and reach a consistent consultation request page. Detailed material has moved from one long homepage into focused pages.
+Visitors can now identify the practice's individual therapy focus, understand what working with Dr. Sheinfil involves, find fees and appointment information, and reach a consistent consultation request page. Detailed material has moved from one long homepage into focused pages.
 
 The visual design uses deep sage, warm ivory, linen, restrained clay contour lines, Source Serif 4 headings, and Source Sans 3 body text. The existing portrait and brand mark are retained. Practice photographs and fonts load locally without external font requests. The footer’s Psychology Today verified seal loads from Psychology Today. Cloudflare Web Analytics measures aggregate website traffic and page performance, as described in the website privacy notice.
 
-The clinical copy emphasizes collaborative CBT/ACT-informed therapy and practical examples, without treatment guarantees or claims about questionnaires that have not been established. Testing and adolescent services are not promoted in this adult-focused revision.
+The clinical copy emphasizes collaborative CBT/ACT-informed therapy and practical examples, without treatment guarantees or claims about questionnaires that have not been established. Copy is age-neutral at the practice owner's request, accommodating teen clients without publishing age restrictions. Testing services are not promoted.
 
 ## Existing practice details preserved
 
@@ -21,7 +21,7 @@ The directory phone number in the recommendation document was not substituted fo
 
 ## Consultation and privacy
 
-The form requests name and email, with optional phone and preferred contact time. The clinical free-text field has been removed. Native validation and a normal POST are used; no client-side success message pretends to confirm delivery. The privacy notice describes the form/email flow and avoids claiming that the website inquiry channel is HIPAA compliant.
+The form requests name, email, and a preferred contact method. A phone number is required for phone contact, with optional preferred contact time. The clinical free-text field has been removed. Native validation and a normal POST are used; no client-side success message pretends to confirm delivery. The privacy notice describes the form/email flow and avoids claiming that the website inquiry channel is HIPAA compliant.
 
 Automated form checks intercepted the POST locally. No inquiry was delivered, and delivery through the practice's actual provider account has not been tested. Before launch, the practice should verify delivery and confirm that its form/email workflow and clinical privacy materials match its operations.
 

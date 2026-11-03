@@ -20,7 +20,7 @@ Open `http://localhost:8000`. There is no build step or package installation. Th
 
 - `index.html`: homepage
 - `about.html`: professional background
-- `services.html`: adult therapy overview
+- `services.html`: individual therapy overview
 - `trauma-therapy.html`, `anxiety-mood-therapy.html`, `substance-use-therapy.html`: focused service information
 - `approach.html`: collaborative CBT/ACT-informed treatment
 - `faq.html`: practical details, fees, insurance, and appointments
@@ -40,3 +40,5 @@ Homepage links use `/` for the canonical homepage URL. The consultation form use
 The shared footer includes Psychology Today’s official verified seal for profile `1844879`, using badge `11`. Keep the seal link immediately before the provider script: the script relies on this placement. The link has an accessible label and visible fallback text when the seal is unavailable. The privacy notice identifies this external service.
 
 Cloudflare Web Analytics is installed once before the closing body tag on all 12 pages, using the existing analytics site for `bergenpsychologyservices.com`. Automatic injection is disabled to avoid duplicate beacons. View reports in the practice’s Cloudflare account under **Web Analytics → bergenpsychologyservices.com**. The beacon token in the HTML is a public site identifier. Form fields are not passed to analytics. Keep the privacy notice current when changing analytics providers or behavior.
+
+Page copy and search metadata use age-neutral wording. The homepage identifies online therapy coverage in New Jersey, New York, and Texas. The homepage and consultation form state the free 15-minute consultation and 24–48-hour response window. The form offers email or phone contact; JavaScript requires a phone number when phone is selected. All office-address links open Google Maps directions. Social previews use `assets/social-preview.png`, with an editable vector source at `assets/social-preview.svg`.
