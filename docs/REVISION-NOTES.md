@@ -4,7 +4,7 @@
 
 Visitors can now identify the practice's adult therapy focus, understand what working with Dr. Sheinfil involves, find fees and appointment information, and reach a consistent consultation request page. Detailed material has moved from one long homepage into focused pages.
 
-The visual design uses deep sage, warm ivory, linen, restrained clay contour lines, Source Serif 4 headings, and Source Sans 3 body text. The existing portrait and brand mark are retained. Practice photographs and fonts load locally, without analytics or external font requests. The footer’s Psychology Today verified seal loads from Psychology Today.
+The visual design uses deep sage, warm ivory, linen, restrained clay contour lines, Source Serif 4 headings, and Source Sans 3 body text. The existing portrait and brand mark are retained. Practice photographs and fonts load locally without external font requests. The footer’s Psychology Today verified seal loads from Psychology Today. Cloudflare Web Analytics measures aggregate website traffic and page performance, as described in the website privacy notice.
 
 The clinical copy emphasizes collaborative CBT/ACT-informed therapy and practical examples, without treatment guarantees or claims about questionnaires that have not been established. Testing and adolescent services are not promoted in this adult-focused revision.
 
