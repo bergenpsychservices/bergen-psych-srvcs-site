@@ -19,14 +19,14 @@ Open `http://localhost:8000`. There is no build step or package installation. Th
 ## Pages and assets
 
 - `index.html`: homepage
-- `about.html`: professional background
-- `services.html`: individual therapy overview
-- `trauma-therapy.html`, `anxiety-mood-therapy.html`, `substance-use-therapy.html`: focused service information
-- `approach.html`: collaborative CBT/ACT-informed treatment
-- `faq.html`: practical details, fees, insurance, and appointments
-- `get-started.html`: consultation request and contact details
+- `about/index.html`: professional background
+- `services/index.html`: individual therapy overview
+- `trauma-therapy/index.html`, `anxiety-mood-therapy/index.html`, `substance-use-therapy/index.html`: focused service information
+- `approach/index.html`: collaborative CBT/ACT-informed treatment
+- `faq/index.html`: practical details, fees, insurance, and appointments
+- `get-started/index.html`: consultation request and contact details
 - `thank-you/index.html`: confirmation at `/thank-you/` after successful form submission
-- `privacy.html`, `good-faith-estimate.html`: website privacy and estimate rights
+- `privacy/index.html`, `good-faith-estimate/index.html`: website privacy and estimate rights
 - `assets/site.css`, `assets/site.js`: shared styling and navigation enhancements
 - `assets/fonts/`: self-hosted Source Serif 4 and Source Sans 3, with licenses
 - `sitemap.xml`, `robots.txt`: search discovery
@@ -44,3 +44,7 @@ Cloudflare Web Analytics is installed once before the closing body tag on all 12
 Page copy and search metadata use age-neutral wording. The homepage identifies online therapy coverage in New Jersey, New York, and Texas. The homepage and consultation form state the free 15-minute consultation and 24–48-hour response window. The form offers email or phone contact; JavaScript requires a phone number when phone is selected. All office-address links open Google Maps directions. Social previews use `assets/social-preview.png`, with an editable vector source at `assets/social-preview.svg`.
 
 Google Search Console uses the URL-prefix property `https://bergenpsychologyservices.com/` and the ownership verification file `google103dbca191251484.html`. Keep that file at the website root, unchanged, to maintain verification for the practice’s Google account. The sitemap is `https://bergenpsychologyservices.com/sitemap.xml`.
+
+### Clean page URLs
+
+Public pages use directory URLs such as `/about/` and `/get-started/`. Each directory contains its page’s `index.html`. Navigation, canonical metadata, social metadata, and the sitemap use these clean URLs. Former root `.html` URLs remain as lightweight client redirects with a meta-refresh and accessible link fallback. JavaScript redirects preserve query strings and fragments. Keep Google’s ownership verification file unchanged.
